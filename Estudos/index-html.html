@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index html</title>
+    <style>
+        body{
+            background-color: burlywood; /* body e responsalvel pelo fundo da pagina */
+
+        }
+        #exemplo{
+            background-color:rgb(84, 84, 223); /* Caso vc queira modificar apenas uma tag espesifica vc deve criar uma id propria para ela e quando chamala aqui de usar #<nome da id> */
+        }
+        .List{
+            color: chocolate; /* vc tambem pode modica-las em grupos chmados de classes sempre vc quiser adicionar um tag a sua classe basta sar class "nome da classe".
+            Diferente das ids que nenhuma tag pode ter o mesmo nome, as tags podem compartilhar as mesmas classes.  */    
+        }
+
+
+    </style><!--nessa seção vc pode setar a configuração de estilo de cada uma de suas tag no body basta escrever qual delas vc quer e abrir {} -->
 </head>
 <body>
     <h1>Olá, mundo!</h1><!-- cabeçalhos vai de h1 até h6 servem para organizar titulos no seu html.-->
     <hr><!--cria uma linha horizontal no site.-->
     <p> Este e um documento html, <br> eu estou aprendendo a fazer.</p><!-- paragrafos e onde grande parte do seu conteudo do html vai ficar ele e a linha basica do seu site.-->
     <br><!-- Quebra a linha de texto no arquivo.-->
-    <p>&gl; isso gera maior e menor que: &lt;</p>
+    <p id="exemplo">&gl; isso gera maior e menor que: &lt;</p>
     <p>Emotis e simbolos especiais 
         &copy; <!--C de copyright-->
         <br>
@@ -32,8 +47,26 @@
         &Delta; &delta; &Alpha; &alpha; &gamma; &Gamma; &Omega; &omega;
         <br>
         &uparrow;
-
+        <strong>E Assim que faz pra estar em negrito</strong>
+        <br>
+        <em>Isso apesar de ser italico não e italico e uma forma de html sematico superior.</em>
+        <ul class="List">
+            <li>1</li><!--Iten de uma lista-->
+            <li>2</li>
+            <li>3</li>
+            
+        </ul><!--unordened list-->
+        <ol class="List">        
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JAVA SSCRIPT</li>
+        </ol><!-- Ordened list-->
+        <a></a><!--Tambem pode ser uma referencia do proprio site.-->
+        <a href="https://duckduckgo.com/">Google</a><!--Serve para ligar uma palavra ou frase do seu site a um outro link-->
+        <a target="https://www.google.com/?hl=PT">DUCK DUCK GO</a><!--semelhante ao anterio porém abre o linkk em uma nova aba do navegador.-->
     </p>
+
+
 
     <p> &#x1f596; 🧑🧑 </p>
 
