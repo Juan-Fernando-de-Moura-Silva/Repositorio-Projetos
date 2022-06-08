@@ -1,0 +1,36 @@
+body{
+    font-size: 16;
+}
+
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family:'Cedarville Cursive', cursive;    
+}
+
+ul{
+    background-color: violet;
+}
+
+.new{
+    background-color:aquamarine;
+    font-family: 'Pinyon Script', cursive;
+}
+
+p{
+    font-size: 3em;
+    font-weight: 600px;    
+}
+
+#amarelo{
+    background-color: yellow;
+    text-align: center;
+}
+#vermelho{
+    background-color: red;
+    text-decoration:line-through;
+}
+#marrom{
+    background-color: brown;
+    line-height:calc(10)
+}
