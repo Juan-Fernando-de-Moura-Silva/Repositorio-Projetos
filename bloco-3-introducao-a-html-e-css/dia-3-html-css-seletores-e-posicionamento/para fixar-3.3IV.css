@@ -1,0 +1,46 @@
+ol{
+    background-color: yellow;
+}
+.par{
+    color: green;
+}
+.impar{
+    text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+h1 em{
+    border: 1px solid black;
+    font-size: 40px
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
+.Linguagens{
+    background-color: blue;
+}
+.Linguagensjava{
+    background-color:pink;
+}
+.aliados:hover{
+    font-weight: bold;
+}
+.MDM:hover{
+color: black;
+}
+.stack:hover {
+color: rgb(247, 110, 60);
+}
+.Trybe:hover{
+color: rgb(0, 192, 0);
+}
+.W3:hover{ 
+color: darkgreen;
+}
+.DevDocs:hover{
+color:rgb(194, 194, 10);
+}
