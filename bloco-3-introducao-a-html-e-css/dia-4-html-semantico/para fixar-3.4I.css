@@ -1,0 +1,23 @@
+h3{
+    text-align: center;
+}
+ul{
+    display: inline;
+    flex-direction:row;
+}
+li{ 
+    text-align: center;
+    display: inline;
+}
+.notas1{
+    position: relative;
+    left:580px;
+}
+.notas2{
+    position: relative;
+    left:590px;
+}
+.notas3{
+    position: relative;
+    left:590px;
+}

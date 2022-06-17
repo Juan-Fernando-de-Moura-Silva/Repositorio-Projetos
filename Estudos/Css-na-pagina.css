@@ -1,0 +1,10 @@
+header{
+    border: 10px solid black;
+    background-color:aquamarine ;
+    
+    /*width: 50%;*//* controla a largura de uma tag box na pagina*/
+    /*height: 100px;*//*controla a altura de uma tag box na pagina*//*porcentagem aqui so funciona se ocupar mais de uma linha caso ocupe menos irá ocupar o espaço nessesario*/
+    text-align: center;
+    padding: 10px;/*controla tanto a altura quanto a lagura de uma tag box na pgina (ps: tem preferencia sobre as outras duas ou seja je usar padding não use as outras duas.)*/
+    overflow: auto;/* caso o conteudo de uma tag box ultrapasse o limite de suas dimenções por padrão o seu conteúdo vai se espalha para fora podendo atrapalhar o conteudo de outra tag box. overflow controla como o conteudo exessivo se comporta  (ha outras opções ms normalmente será usada a opção auto.) */
+}
