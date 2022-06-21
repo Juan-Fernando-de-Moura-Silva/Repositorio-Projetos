@@ -29,3 +29,17 @@ if (weekDay == 'segunda-feira'|| weekDay == 'terça-feira' || weekDay == 'quarta
 }else{
     console.log('FINALMENTE, descanso merecido UwU')
 }
+
+//Operador ! ou != os tests devem ser falsos para dar verdadeiro.
+
+let numero ="verdade"
+console.log('dentro de "numero" contem ' +numero+ '.')
+
+console.log( 'Em "numero" contem um numero?')
+
+if (numero != Number){
+    console.log('"numero" não tem um numero detro dele. ele tem '+numero+' detro dele')
+
+}else{
+    console.log('"numero" tem um numero detro dele')
+}
