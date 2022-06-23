@@ -43,9 +43,18 @@ if (impar != 0){
   console.log("não tem numeros impares")
 }
 
-let mN = 0 
+let menorN = 999 
 for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i]> maiorN){
-    maiorN=numbers[i]
+  if (numbers[i]< menorN){
+    menorN=numbers[i]
   }
+}
+console.log(menorN)
+
+
+let counter = [25]
+
+for (let i = 1; i <= 25; i++) {
+  counter.push(i/2)
+  console.log(counter[i])
 }
