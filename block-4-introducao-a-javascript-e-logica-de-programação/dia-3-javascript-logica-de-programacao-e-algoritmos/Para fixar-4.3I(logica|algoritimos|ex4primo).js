@@ -43,13 +43,14 @@ for (let i = array.length-1; i >= 0; i--) {
 console.log(palavraG)
 console.log(palavraP)
 
-// ex4
+// ex4 e primo
 let primo = 0
 let count = 0
  
 for (let i =0; i <=50; i++) {
   
   for ( let j = 0; j <= i; j++ ) {
+
     if ( i%j == 0 ) {
       count++;
     }
