@@ -1,0 +1,61 @@
+#CSS Grid
+
+##Grid
+
+- Bimensinoal.
+- Divisão de toda a página em linhas e colunas.
+- colocar elementos nde quiser nessa divisão.
+
+----
+## Grid ou FlexBox
+
+- Grid: duas dimensões(linhas e colunas)
+- Flexbox: Uma dimensão (ou linha ou coluna)
+- Um complementa o trabalho do outro
+
+---
+## Propriedades
+
+vamos separar em dois grupos
+'container' e 'item(s)'
+
+### container
+
+-display: grid; -> inicia o seu container e seta como um grid
+-grid-template-columns; -> divide seu grid em colunas
+-grid-template-rows; -> divide seu grid em linhas
+-grid-gap -> coontrola o espaçamento das grids
+  -grid-row-gap -> linha 
+  -grid-column-gap -> coluna
+-grid-template-areas;
+
+... e mais 4 propriedades e **alinhamentos**
+
+---
+## item(s)
+
+- grid-column
+  -grid-column-start
+  -grid-rw-end
+
+-grid-row
+  -grid-row-start
+  -grid-row-end
+
+-grid-area
+
+... e mais 2 propriedades de **alinhamentos**
+
+## vh e vw
+
+Muitas técnicas de web design responsivo dependem muito de regras percentuais. No entanto, medidas CSS percentuais nem sempre são a melhor solução para todos os problemas.
+
+As unidades vh e vw são úteis quando é preciso usar a largura ou a altura da viewport.
+
+A medida vh é igual a 1/100 da altura da viewport. Então, por exemplo, se a altura do navegador é 900px, 1vh equivale a 9px.
+
+E, analogamente, se a largura da viewport é 750px, 1vw equivale a 7.5px.
+
+Há infinitas possibilidades de uso com essas unidades de CSS moderno em uma folha de estilos.
+
+Por exemplo, um slider de altura total (full height) poderia ser conseguido com uma única linha de CSS:

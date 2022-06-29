@@ -1,0 +1,52 @@
+html, body {/* Primeira coisas a se azer e setar as conigurações padroes para 0 */
+    margin: 0;
+    padding: 0;
+    /* Inicio das mdanças */
+    box-sizing: border-box;
+    background: rgb(66, 150, 122);
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+header {
+  background-color: #456325;;
+  height: 10rem;
+/*  grid-column-start: 1; /* indicação de inicio da linha  */
+/*  grid-column-end: 3; /* Fim da linha */
+  grid-area: 'header';
+  
+}
+
+main {
+/*  grid-column-start: 1; /* indicação de inicio da linha */
+/*  grid-column-end: 2 ;/* Fim da linha */
+  height: 10rem;
+  grid-area: 'main';
+  background: rgb(71, 71, 236)  
+  
+}
+
+aside {
+  grid-area: 'aside';
+  background-color: bisque;
+  height: 10rem;
+  /*grid-column-start: 2;
+  grid-column-end: 3;*/
+}
+
+footer{
+  grid-area: 'footer';
+  background-color: rgb(252, 64, 64);
+  height: 10rem;
+  /*grid-column-start: 3;*/
+  /*grid-column-end: 4;*/
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;/* divide em duas colunas fr ee fração ou seja quando maior a frs de um em comparação a outro maior e  */
+  grid-template-rows: 20vh 70vh 10vh; /* A medida vh é igual a 1/100 da altura da viewport. */
+  /*
+  /* grid-gap: 3rem; <-- junção para duas funçoes diferente tanto grid-row-gap e grid-columns-gap
+  /* ele opera nessa ordem o primeiro valor vai para row e o segundo valor vai para columns caso so tenhha um valor vai para ambos. */
+
+}

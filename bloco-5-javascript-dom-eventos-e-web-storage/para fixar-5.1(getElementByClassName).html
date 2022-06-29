@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="paragraph">Segundo parágrafo!</p>
+      <h2> so pra exibir </h2>
+    </header>
+    <script>
+      /* assim como o seu irmão getElementsByClassName pega to o conteudo que possui uma determinada classe por conta disso ele e organizado de forma de array o seja para editar um conteudo especifico vc deve dizer em que possição da array ele esta.*/
+      const paragraph = document.getElementsByClassName('paragraph');
+      paragraph[0].style.color = 'blue'
+      paragraph[1].innerText ='Ufa ainda bem que deu certo'
+      
+      /*De Maneira semelhate vc pode usar getElementByTagName que bsca todas as tags nessa pagina.*/
+      let Subtítulo = document.getElementsByTagName('h4');
+      Subtítulo[0].innerText='Agora vai';
+
+      /* Outra opção e usar o querySelector que e capaz de buscar um elemento expecifico porém ele sempre vai retorna o prmeiro item que ele encontrar or isso vc deve ser o mais especifico o possivel para encontrar o item dessejavel. */
+      let novo = document.querySelector('p')
+      novo.innerText='simples'
+
+      /*Outra opção e usar o querrySelectorAll que vai pegar todos os itens q se encaixe na busca e devolve uma lista  */
+      let novo2 = document.querySelectorAll('h2')
+      novo2[1].innerText='e assim que se faz';
+
+
+      /*Nota querrySelectors são mais flexixes em suas buscas getElementsBy...s são mais genericos o uso depende do confforto e exigencia do projeto*/
+    </script>
+  </body>
+</html>

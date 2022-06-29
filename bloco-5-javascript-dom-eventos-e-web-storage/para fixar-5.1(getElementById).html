@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      /*variavel que vai receber a informaçao*/ let test = /*primeiro buscamos a infomação*/document./*escolhemos o metodo de busca que pode ser pelo ID, class, nam, tagname, tagnameNG ou selecionado*/getElementById/*entre os parenteses escreva o nome da que você esta buscando entre ''*/('subtitle');
+      /*agora  test tem todaas as informações que o paragrafo h4 possui */
+      /* mas caso vc queira uma informações mais detalhadas vc pode especifica-las*/
+      /*
+      test.innerHTML;
+      test.innerText;
+      test.innerColor;
+      etc...*/
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      let page_title = document.getElementById("page-title");
+      page_title.innerText = 'Nem tudo e o que parece'
+      page_title.style.color = 'blue';
+      paragraph.innerText = 'ups acho q funciona'
+      let titulo = document.getElementById('subtitle') 
+      titulo.innerText = 'Tudo ok por aqui'
+    </script>
+  </body>
+</html>

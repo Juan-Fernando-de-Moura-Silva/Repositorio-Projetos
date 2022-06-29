@@ -1,0 +1,60 @@
+body, ul {
+  margin: 0px;/* Setando a margin do boby e da ul para 0 */
+  padding: 0px;/* Setando o padding do boby e da ul para 0*/
+}
+
+a{
+  color: black; /* seta a cor de texto dentro das a em preto*/
+  text-decoration: none;/* tira todos os efeitos de texto das 'a'*/
+  font-family: sans-serif; /* Seta o estilo da escrita para sans-serif*/
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.5); /* ao mover o curso do mouser na escritas das a vai destacar um area preta ao redor delas  */
+}
+
+.Titulo{
+  font-size: 1.5rem;/* vai aumentar o tamanho da fonte para 50% do valor padrão rem  */
+  font-weight: bold;/* coloca o efeito negrito */
+}
+
+header{
+  box-sizing: border-box;/* Não soma as expecificações da height e padding*/
+  display: flex;/* Permite maiores mudanças de exibição*/
+  align-items: center;/*Posiciona todos os itens no centro mas de suas proprias caixas de espaço não no centro da tela em geral.*/
+  height: 0.5rem;/*Aumenta a distancia entre o conteudo e o top da pagina */
+  padding: 20px;/*cria uma borda enre o conteudo e o canto da pagina*/
+  justify-content: space-between; /* divide o conteudo entre os dois extremos da pagina*/
+  background-color: antiquewhite; /* Muda a cor de fundo */
+
+}
+.Menu{
+  display: flex;
+  list-style: none;/*Tira as bolinhas ou os numeros dos intens da lista ou altera eles*/
+  gap:0.5rem/*Abre um espaço em cada item*/
+  ;
+}
+
+.Menu a{
+  display: block;
+  padding: 0.5rem; /* mais espaço entre os itens*/
+}
+
+.MenuM{
+  display: none; /*Oculta o butão menu*/
+}
+
+@media(max-width:600px){/* O @media e acionado quando a tela chega em um tamanho minimo ele faz as coisas detro da chave */
+  .MenuM{
+    display: block;/* Mostra o butão escondido */
+    
+  }
+  .Menu{
+    display: none;/* Escone o menu original e deixa o butão */
+  }
+  #nav.active{
+    
+  }
+}
+
+/*titulo de curiosidade 1rem = 8px mais ou menos*/
