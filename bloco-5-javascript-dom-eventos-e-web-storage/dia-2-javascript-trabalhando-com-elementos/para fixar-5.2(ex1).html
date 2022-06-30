@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    
+    let primeiro = document.getElementById("elementoOndeVoceEsta")/*pegando o item elementoOndeVoceEsta*/
+    
+    console.log(primeiro)/* so checando */
+    
+    console.log(primeiro.parentElement.style.color='blue')/* dando uma cor ao elemento pai lembrendo que os lementos filhos herdam o itens do pai */
+    
+    console.log(primeiro.firstElementChild.innerText = "Esse o primeiro filho do filho") /* dando um texto ao firstElementChild */
+    
+    let pai = document.getElementById("pai")/*Pegndo um elemento pai*/
+    
+    console.log(pai.firstChild) /* Pegando o elemento primeiroFilho apatir do pai *//*lembrando que estamos pegando o primeiro filho do elemento*/
+    
+    console.log(primeiro.previousSibling)/* pegando o elemento prmeiroFilho apatir do elementoOndeVoceEsta  *//* lembrando que estamos pegando um elemento que e irmão desse mas veio primeiro  */
+
+    console.log(primeiro.nextSibling)/* Pegando o element
+
+  </script>
+</body>
+</html>
