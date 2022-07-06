@@ -35,7 +35,11 @@
     
     console.log(primeiro.previousSibling)/* pegando o elemento prmeiroFilho apatir do elementoOndeVoceEsta  *//* lembrando que estamos pegando um elemento que e irmão desse mas veio primeiro  */
 
-    console.log(primeiro.nextSibling)/* Pegando o element
+    console.log(primeiro.nextSibling)/* Pegando o element Atenção *//* O comando utilizado pega qualquer coisa que vier depois do local inicial */
+
+    console.log(primeiro.nextElementSibling)/* pegando o elemento terceiroFilho *//* A dierença entre esse comando e o outro e que esse comando pega apenas o proximo nó do html ignoando o conteudo que esteja fora de uma tag. */
+
+    console.log(pai.lastElementChild.previousElementSibling)/* pegando o elemento terceiroFilho utilizado o pai */
 
   </script>
 </body>

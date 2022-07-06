@@ -54,6 +54,22 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+
+      window.onload = alterarP;
+      window.onloadstart = mdandoACorDoQuadrado;
+
+      //ex 1 completo
+      function alterarP(){
+        let mundandoP  = document.querySelectorAll('p');
+        mundandoP[1].innerText ='Vou estar trabalhando e bem de saude'
+      }
+
+      //ex 2 
+      function mdandoACorDoQuadrado(){
+        let cor = window.document.main;
+        cor.style.backgroundColor ='rgb(45,57,159)'
+      }
+
     </script>
   </body>
 </html>
