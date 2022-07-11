@@ -12,33 +12,36 @@
     <h1> Titulo da Pagina </h1>
   </header>
   <section>
+    <fieldset>
     <form action="">
-      <div>
-      <label for="nome">  Nome : <input type="text" name="nome" id="nome" required minlength="10" maxlength="40"></label>
-      </div>
-      <div>
-        <label> Email : <input type="email" name="email" id="email" required min="10" max="50"> </label>
-      </div>
+        <div>
+          <label for="nome">  Nome : <input type="text" name="nome" id="nome" required minlength="10" maxlength="40"></label>
+        </div>
+        <div>
+          <label> Email : <input type="email" name="email" id="email" required min="10" max="50"> </label>
+        </div>
         <label for="1"><input type="radio" name="test" id="1" > Cidade </label>
         <label for="2"><input type="radio" name="test" id="2" > Campo </label>
         <label for="3"><input type="radio" name="test" id="3" > Praia </label>
         <label for="4"><input type="radio" name="test" id="4" > Montanhas </label>
 
-      <H2>Espaço Para Sua Resposta </H2>
-      <textarea name="resposta" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
+        <H2>Espaço Para Sua Resposta </H2>
+        <textarea name="resposta" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
 
-      <div></div>
-      <h2> Qual a melhor data para realizar sua viagem? </h2>
-      <input type="date" name="dia" id="diaM" required>
-      <div></div>
-      <label for="opção1"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? <input type="checkbox" name="opção" id="opção1"></label>
-      <br>
-      <label for="opção2"> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.<input type="checkbox" name="opção" id="opção2" required></label>
+        <div></div>
+        <h2> Qual a melhor data para realizar sua viagem? </h2>
+        <input type="date" name="dia" id="diaM" required>
+        <div></div>
+        <label for="opção1"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? <input type="checkbox" name="opção" id="opção1"></label>
+        <br>
+        <label for="opção2"> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.<input type="checkbox" name="opção" id="opção2" required></label>
+      </fieldset>
 
-    </form>
-    <button id="sim"> Enviar </button>
-    <button id="refazer"> Apagar </button>
+      <button id="sim" type="submit" name="sim"> Enviar </button>
+      <button id="refazer"> Apagar </button>
+  </form>
+   
   </section>
-  
+  <script src="para fixar-6.1(ex 3).js"></script>
 </body>
 </html>
